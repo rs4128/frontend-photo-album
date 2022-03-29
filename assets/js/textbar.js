@@ -1,14 +1,14 @@
 
 function callSearchGet(message) {
   // params, body, additionalParams
-  return sdk.searchGet({'q':message}, {'q':message
+  return sdk.searchGet({'q':message,'x-api-key':'1dcJ4LN32c7cxizUQmiMKi3IT97ODJi8X5RaEDQg'}, {'q':message,'x-api-key':'1dcJ4LN32c7cxizUQmiMKi3IT97ODJi8X5RaEDQg'
     // messages: [{
     //   type: 'unstructured',
     //   unstructured: {
     //     text: message
     //   }
     // }]
-  }, {'q':message});
+  }, {'q':message,'x-api-key':'1dcJ4LN32c7cxizUQmiMKi3IT97ODJi8X5RaEDQg'});
 }
 
 function functionSearchImages(message)
